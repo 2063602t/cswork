@@ -1,0 +1,25 @@
+package uk.ac.glasgow.jagora.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import uk.ac.glasgow.jagora.Stock;
+import uk.ac.glasgow.jagora.impl.DefaultStock;
+
+public class StockTest {
+
+	private Stock s;
+	
+	@Before
+	public void setUp() throws Exception {
+		s = new DefaultStock("lemons");
+	}
+
+	@Test
+	public void testGetName() {
+		assertEquals(s.getName(), "lemons");
+	}
+
+}

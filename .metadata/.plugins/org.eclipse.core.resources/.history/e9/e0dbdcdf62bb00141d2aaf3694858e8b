@@ -1,0 +1,30 @@
+package uk.ac.glasgow.jagora.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import uk.ac.glasgow.jagora.Order;
+import uk.ac.glasgow.jagora.impl.LimitBuyOrder;
+
+public class BuyOrderTest {
+
+	private Order order;
+	
+	@Before
+	public void setUp() throws Exception {
+		order = new LimitBuyOrder(trader, stock, quantity, price)
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

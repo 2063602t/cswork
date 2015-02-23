@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+H:\Workspace\OOSE\lab3\.metadata\.plugins\org.eclipse.jdt.core
+339683613.index
+321350749.index
+1048384298.index
+1679443901.index
+465283007.index
+3515543094.index
